@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div class="header" th:fragment="bodyHeader">
+  <a href="/"><h3 class="text-muted">책방</h3></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/members/new">회원가입</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/members">회원목록</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/items/new">상품등록</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/items">상품목록</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/order">상품주문</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/orders">주문내역</a>
+        </li>
+      </ul>
+    </div>
+    <!--
+  <div>
+  <a class="btn btn-lg btn-secondary" href="/members/new">회원 가입</a>
+  <a class="btn btn-lg btn-secondary" href="/members">회원 목록</a>
+  <a class="btn btn-lg btn-dark" href="/items/new">상품 등록</a>
+  <a class="btn btn-lg btn-dark" href="/items">상품 목록</a>
+  <a class="btn btn-lg btn-info" href="/order">상품 주문</a>
+  <a class="btn btn-lg btn-info" href="/orders">주문 내역</a>
+  </div>
+  -->
+  </nav>
+</div>

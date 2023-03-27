@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+  <title>Hello</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="container">
+  <div th:replace="fragments/bodyHeader :: bodyHeader" />
+
+    <p>타임리프로 슬라이더</p>
+    <p>게시판</p>
+    <p>다 넣고 싶었는데</p>
+    <p>실력이 부족해서 못넣었습니다.</p>
+    <p>스프링 부트로 백엔드는 거의 다 했습니다.</p>
+    <p>실행하실때 test 실행하면</p>
+    <p>테스트 회원이랑 테스트 상품 db에 추가됩니다.</p>
+    <p>localhost:8080으로 들어가면 됩니다.</p>
+    <p>전체화면이 아니면 네비게이션바가 잘안보일수도 있습니다.</p>
+
+
+  <div th:replace="fragments/footer :: footer" />
+</div> <!-- /container -->
+</body>
+</html>
